@@ -1,0 +1,70 @@
+/*DOCUMENTO CSS*/
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: sans-serif;
+	background-color: #c8e6ef;
+}
+
+header {
+	background-color: #d6b375;
+	height: 100px;
+	padding-top: 25px;
+	color: black;
+	text-align: center;
+	border-style: solid;
+}
+.box {width: 250px;
+	height: 381px;
+	background-color: #d6b375;
+	border-radius: 30px;
+	padding: 10px;
+	color: black;
+	text-align: center;
+	margin: 10px;
+	transition: width 2s height 2s;
+	overflow: hidden;
+
+}
+main {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.box:hover {
+	box-shadow: 6px 6px  10px #a4a4a4;
+}
+
+.box figure {width: 250px;
+	height: 200px;
+	
+	margin: 0;
+	padding: 0;
+}
+
+.box p {
+
+}
+
+footer {
+	background-color: #A67D65;
+	height: 70px;
+	padding-top: 10px;
+	color: darkred;
+	text-align: center;
+}
+
+div
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
